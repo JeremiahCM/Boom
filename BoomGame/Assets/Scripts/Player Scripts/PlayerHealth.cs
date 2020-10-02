@@ -48,9 +48,21 @@ public class PlayerHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D target) {
         if(target.tag == "Enemy") {
+            GameObject soldier = GameObject.Find("Soldier");
+            PlayerArmor playerArmor = soldier.GetComponent<PlayerArmor>();
+
             if(hit) {
                 StartCoroutine(HitBoxOff());
-                health -= 20;
+
+                if (playerArmor.armor == 0)
+                {
+                    health -= 20;
+                }
+
+                else
+                {
+                    playerArmor.ArmorReduction(10);
+                }
             }
         }
     }
