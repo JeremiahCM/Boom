@@ -6,7 +6,6 @@ public class PlayerArmor : MonoBehaviour
 {
     [SerializeField]
     public float armor;
-    private bool hit = true;
     public GameObject armorRectangle;
 
     void Awake()

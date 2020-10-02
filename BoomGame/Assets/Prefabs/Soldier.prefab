@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 3465344669900678285}
   - component: {fileID: 3465344669900678281}
   - component: {fileID: 2897195794876096516}
-  - component: {fileID: 217519518415212768}
+  - component: {fileID: 8427324384137801598}
   - component: {fileID: -596174333841972007}
   m_Layer: 0
   m_Name: Soldier
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   lifeRectangle: {fileID: 84649073614137615, guid: e84d054f083c7ea46af9606a05aefa39, type: 3}
---- !u!114 &217519518415212768
+--- !u!114 &8427324384137801598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3465344669900678284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83b7d129c2e5d5944aec6bda74553585, type: 3}
+  m_Script: {fileID: 11500000, guid: d651687ea1f0e06448791e50421528e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   armor: 100
