@@ -7,7 +7,10 @@ public class PlayerArmor : MonoBehaviour
     [SerializeField]
     public float armor;
     private bool hit = true;
+<<<<<<< HEAD
     private Animator animator;
+=======
+>>>>>>> master
     public GameObject armorRectangle;
 
     void Awake()
@@ -46,8 +49,14 @@ public class PlayerArmor : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
     public void armorDecrease()
     {
         armor -= 5;
+=======
+    public void ArmorReduction(int reduction)
+    {
+        armor -= reduction;
+>>>>>>> master
     }
 }
