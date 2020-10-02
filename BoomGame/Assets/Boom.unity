@@ -792,7 +792,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: be03c105838361e4fa86be54eb00c2af, type: 3}
+    m_Font: {fileID: 12800000, guid: 8ef8f7675a477874e8a84f2ce8de92c3, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -871,7 +871,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: be03c105838361e4fa86be54eb00c2af, type: 3}
+    m_Font: {fileID: 12800000, guid: 8ef8f7675a477874e8a84f2ce8de92c3, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -1205,7 +1205,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: be03c105838361e4fa86be54eb00c2af, type: 3}
+    m_Font: {fileID: 12800000, guid: 8ef8f7675a477874e8a84f2ce8de92c3, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
@@ -1289,7 +1289,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: be03c105838361e4fa86be54eb00c2af, type: 3}
+    m_Font: {fileID: 12800000, guid: 8ef8f7675a477874e8a84f2ce8de92c3, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -1373,7 +1373,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: be03c105838361e4fa86be54eb00c2af, type: 3}
+    m_Font: {fileID: 12800000, guid: 8ef8f7675a477874e8a84f2ce8de92c3, type: 3}
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
@@ -1462,6 +1462,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 30500661612517132, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
+    - target: {fileID: 179120130411146790, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     - target: {fileID: 293198008482381296, guid: 65127e6286258044daea11a1d91b6275, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
@@ -1554,10 +1562,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Armor-Rectangle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2209076480583175995, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     - target: {fileID: 2409851886457138656, guid: 65127e6286258044daea11a1d91b6275, type: 3}
       propertyPath: m_Name
       value: Armor-Rectangle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2589689594503748420, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
+    - target: {fileID: 2883417182943211905, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     - target: {fileID: 2939887631285844064, guid: 65127e6286258044daea11a1d91b6275, type: 3}
       propertyPath: m_Name
       value: Armor-Rectangle (2)
@@ -1630,6 +1650,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3559099836179010569, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     - target: {fileID: 3721385441446779664, guid: 65127e6286258044daea11a1d91b6275, type: 3}
       propertyPath: m_Name
       value: Armor-Box
@@ -1826,6 +1850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Armor-Rectangle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6624448587534187161, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     - target: {fileID: 6720640278247240140, guid: 65127e6286258044daea11a1d91b6275, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
@@ -1878,6 +1906,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7451787011071221543, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     - target: {fileID: 7648115247392215622, guid: 65127e6286258044daea11a1d91b6275, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1902,6 +1934,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7752491412153839260, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     - target: {fileID: 7808074038422735285, guid: 65127e6286258044daea11a1d91b6275, type: 3}
       propertyPath: pauseMenu
       value: 
@@ -1926,6 +1962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Armor-Rectangle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8660737722169871927, guid: 65127e6286258044daea11a1d91b6275, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 286dfa22c60f05545ae2ac44d8d86b2c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65127e6286258044daea11a1d91b6275, type: 3}
 --- !u!114 &2380908140208725144 stripped
