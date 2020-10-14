@@ -38,6 +38,7 @@ public class PlayerArmor : MonoBehaviour
                 {
                     GameObject go = Instantiate(armorRectangle, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
                     go.transform.SetParent(GameObject.Find("Armor-Box").transform);
+                    go.transform.localScale = new Vector3(1,1,1);
                     actualArmorBoxes++;
                 }
             }

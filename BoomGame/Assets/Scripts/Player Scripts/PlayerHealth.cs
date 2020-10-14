@@ -33,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
                 for(int i = 0; i < tempHealthBoxes - actualHealthBoxes; i++) {
                     GameObject go = Instantiate(lifeRectangle, new Vector3(0,0,0), Quaternion.identity) as GameObject;
                     go.transform.SetParent(GameObject.Find("Life-Box").transform);
+                    go.transform.localScale = new Vector3(1,1,1);
                     actualHealthBoxes++;
                 }
             }
@@ -61,7 +62,7 @@ public class PlayerHealth : MonoBehaviour
 
                 else
                 {
-                    playerArmor.ArmorReduction(10);
+                    playerArmor.ArmorReduction(20);
                 }
             }
         }

@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  lifeRectangle: {fileID: 84649073614137615, guid: e84d054f083c7ea46af9606a05aefa39, type: 3}
+  lifeRectangle: {fileID: 1078601225017277707, guid: 60b3821e86694244291753756c374e46, type: 3}
 --- !u!114 &8427324384137801598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   armor: 100
-  armorRectangle: {fileID: 2367760894676702543, guid: 31a7f31a4f94ea24b89a20c0ab714e31, type: 3}
+  armorRectangle: {fileID: 2679979043931766612, guid: a135a7cf287b22d4584c19700c88dace, type: 3}
 --- !u!95 &-596174333841972007
 Animator:
   serializedVersion: 3

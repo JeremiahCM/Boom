@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2367760894676702543
+--- !u!1 &2679979043931766612
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1892551049358764177}
-  - component: {fileID: 692236638867208243}
-  - component: {fileID: 4170287536828533901}
+  - component: {fileID: 2115500553099462898}
+  - component: {fileID: 4731800110521241055}
+  - component: {fileID: 2051711997223340821}
   m_Layer: 5
-  m_Name: Armor-Rectangle
+  m_Name: Armor-Rectangle (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1892551049358764177
+--- !u!224 &2115500553099462898
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2367760894676702543}
+  m_GameObject: {fileID: 2679979043931766612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -37,21 +37,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 8.5, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &692236638867208243
+--- !u!222 &4731800110521241055
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2367760894676702543}
+  m_GameObject: {fileID: 2679979043931766612}
   m_CullTransparentMesh: 0
---- !u!114 &4170287536828533901
+--- !u!114 &2051711997223340821
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2367760894676702543}
+  m_GameObject: {fileID: 2679979043931766612}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
