@@ -55,7 +55,7 @@ public class PlayerHealth : MonoBehaviour
             if(hit) {
                 StartCoroutine(HitBoxOff());
 
-                if (playerArmor.armor == 0)
+                if (playerArmor.armor <= 0)
                 {
                     health -= 20;
                 }

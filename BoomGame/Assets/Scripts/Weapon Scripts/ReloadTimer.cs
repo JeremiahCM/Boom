@@ -36,7 +36,7 @@ public class ReloadTimer : MonoBehaviour
             reloadingText.SetActive(false);
             if (isReloading == true)
             {
-                Shooting.ammo = 30;
+                GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.ammo = 30;
             }
             isReloading = false;
         }
