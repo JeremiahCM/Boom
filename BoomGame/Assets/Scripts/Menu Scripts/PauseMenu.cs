@@ -11,8 +11,6 @@ public class PauseMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        Time.timeScale = 1f;
         pauseMenu.SetActive(false);
     }
 
@@ -56,7 +54,7 @@ public class PauseMenu : MonoBehaviour
 
     public void GoToMainMenu()
     {
-        isPaused = false;
-        SceneManager.LoadScene("Main");
+        //Time.timeScale = 1f;
+        //SceneManager.LoadScene("MainMenu");
     }
 }
