@@ -7,7 +7,7 @@ public class Shooting : MonoBehaviour
     public Weapon currentWeapon;
     public Transform firePoint;
 
-    private float nextTimeofFire = 0;
+    private float nextTimeofFire = 30;
 
     void Update()
     {
