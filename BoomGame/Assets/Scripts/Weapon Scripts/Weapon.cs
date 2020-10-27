@@ -9,12 +9,21 @@ public class Weapon : ScriptableObject
     public GameObject bulletPrefab;
     public float fireRate = 1;
     public int damage = 20;
+    public int reserveAmmo = 30;
     public int ammo = 30;
 
     public void Shoot() {
         GameObject bullet = Instantiate(bulletPrefab, GameObject.Find("firePoint").transform.position, Quaternion.Euler(0,0,GameObject.Find("Soldier").GetComponent<Rigidbody2D>().rotation));
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(GameObject.Find("firePoint").transform.up * damage, ForceMode2D.Impulse);
+        if(bullet.transform.childCount > 0) {
+            foreach (Transform child in bullet.transform) {
+                Rigidbody2D rb = child.GetComponent<Rigidbody2D>();
+                rb.AddForce(GameObject.Find("firePoint").transform.up * 30, ForceMode2D.Impulse);
+            }
+        }
+        else {
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(GameObject.Find("firePoint").transform.up * 30, ForceMode2D.Impulse);
+        }
         ammo--;
     }
 

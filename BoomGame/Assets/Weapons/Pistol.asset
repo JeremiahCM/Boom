@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0263d24a25df3364e91370769a5a03d7, type: 3}
-  m_Name: BasicWeaponFaster
+  m_Name: Pistol
   m_EditorClassIdentifier: 
-  currentWeaponSpr: {fileID: 21300000, guid: e6edb32fed0a7df48aef74dc52fcc27d, type: 3}
+  currentWeaponSpr: {fileID: 21300000, guid: 0185d9f0ea76c5f40b132ce2039c0c36, type: 3}
   bulletPrefab: {fileID: 3635602890419601827, guid: 2a5d64d3f2cb10b44b98d54ad22efc51, type: 3}
-  fireRate: 4
-  damage: 20
-  ammo: 30
+  fireRate: 2
+  damage: 25
+  reserveAmmo: 12
+  ammo: 0

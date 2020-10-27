@@ -7,15 +7,18 @@ public class Shooting : MonoBehaviour
     public Weapon currentWeapon;
     public Transform firePoint;
 
-    private float nextTimeofFire = 0;
+    private float nextTimeOfFire = 0;
 
     void Update()
     {
         if(!PauseMenu.isPaused && !ReloadTimer.isReloading)
         {
-            if (Input.GetButtonDown("Fire1") && currentWeapon.ammo != 0)
+            if (Input.GetMouseButton(0) && currentWeapon.ammo != 0)
             {
-                currentWeapon.Shoot();
+                if(Time.time >= nextTimeOfFire) {
+                    currentWeapon.Shoot();
+                    nextTimeOfFire = Time.time + 1 / currentWeapon.fireRate;
+                }
             }
 
             else if (Input.GetKeyDown(KeyCode.R))
