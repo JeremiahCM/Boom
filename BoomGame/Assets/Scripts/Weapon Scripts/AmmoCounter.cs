@@ -12,12 +12,12 @@ public class AmmoCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        maxAmmo = GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.ammo;
+        GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.ammo = GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.reserveAmmo;
     }
 
     // Update is called once per frame
     void Update()
     {
-        ammoDisplay.text = GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.ammo.ToString() + " / " + maxAmmo.ToString();
+        ammoDisplay.text = GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.ammo.ToString() + " / " + GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.reserveAmmo.ToString();
     }
 }

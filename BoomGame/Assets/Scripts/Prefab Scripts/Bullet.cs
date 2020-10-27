@@ -8,8 +8,13 @@ public class Bullet : MonoBehaviour
     public GameObject hitEffect;
 
     private void OnDestroy() {
-        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        Destroy(effect, 5f);
+        if(hitEffect == null) {
+            Destroy(gameObject, 5f);
+        }
+        else {
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 5f);
+        }
     }
 
     void Start() {

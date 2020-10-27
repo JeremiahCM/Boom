@@ -18,7 +18,7 @@ public class EnemyHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D target) {
         if(target.tag == "Bullet") {
-            health -= 20;
+            health -= GameObject.Find("Soldier").GetComponent<Shooting>().currentWeapon.damage;
             Destroy(target.gameObject);
         }
     }

@@ -50,7 +50,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D target) {
-        if(target.tag == "Enemy") {
+        if(target.tag == "Enemy" || target.tag == "Enemy1") {
             GameObject soldier = GameObject.Find("Soldier");
             PlayerArmor playerArmor = soldier.GetComponent<PlayerArmor>();
 
@@ -60,12 +60,22 @@ public class PlayerHealth : MonoBehaviour
 
                 if (playerArmor.armor <= 0)
                 {
-                    health -= 20;
+                    if(target.name == "Enemy") {
+                        health -= 20;
+                    }
+                    else {
+                        health -= 50;
+                    }
                 }
 
                 else
                 {
-                    playerArmor.ArmorReduction(20);
+                    if(target.tag == "Enemy") {
+                        playerArmor.ArmorReduction(20);
+                    }
+                    else {
+                        playerArmor.ArmorReduction(50);
+                    }
                 }
 
             if (health < 1)
