@@ -5,11 +5,14 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public float health;
+
+    public AudioClip death;
     
     void Update()
     {
         if(health <= 0) {
             Destroy(gameObject);
+            SoundManager.instance.PlaySoundFX(death);
         }
     }
 

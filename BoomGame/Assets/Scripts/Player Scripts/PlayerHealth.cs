@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     private Animator animator;
     public GameObject lifeRectangle;
 
+    public AudioClip hitClip, deathClip;
+
     void Awake() {
         animator = GetComponent<Animator>();
     }
@@ -53,6 +55,7 @@ public class PlayerHealth : MonoBehaviour
             PlayerArmor playerArmor = soldier.GetComponent<PlayerArmor>();
 
             if(hit) {
+                SoundManager.instance.PlaySoundFX(hitClip);
                 StartCoroutine(HitBoxOff());
 
                 if (playerArmor.armor <= 0)
@@ -73,6 +76,11 @@ public class PlayerHealth : MonoBehaviour
                     else {
                         playerArmor.ArmorReduction(50);
                     }
+                }
+
+            if (health < 1)
+                {
+                    SoundManager.instance.PlaySoundFX(deathClip);
                 }
             }
         }
